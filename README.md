@@ -2,7 +2,9 @@ WitLab's Gists
 ================
 ## 1. BarbeQR is a set of sample Java codes that write image files of barcodes, and QR codes.
 
-![CodaBar Barcode](./BarbeQR/codabar_123456789.png) ![Code128 Barcode](./BarbeQR/code128_123456789.png) ![Code39 Barcode](./BarbeQR/code39_123456789.png) ![QR Code Barcode](./BarbeQR/qrcode_123456789.png) ![QR Code With Japanese Text](BarbeQR/qrcodeShiftJisJapanese_123456789.png)
+![CodaBar Barcode](./BarbeQR/codabar_123456789.png)
+![Code128 Barcode](./BarbeQR/code128_123456789.png)
+![Code39 Barcode](./BarbeQR/code39_123456789.png) ![QR Code Barcode](./BarbeQR/qrcode_123456789.png) ![QR Code With Japanese Text](BarbeQR/qrcodeShiftJisJapanese_123456789.png)
 
 ### Java Source Files
 
