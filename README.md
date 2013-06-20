@@ -12,15 +12,15 @@ HTML
 <tr><th scope="col" class="center">Generated Barcode Image Files</th></tr>
 </thead>
 <tbody>
-<tr><td class="center"><img src="./BarbeQR/codabar_123456789.png"  alt="codabar_123456789.png" /></td></tr>
+<tr><td class="center"><img src="./BarbeQR/codabar\_123456789.png"  alt="codabar\_123456789.png" /></td></tr>
 <tr><td class="center">CodaBar Barcode</td></tr>
-<tr><td class="center"><img src="./BarbeQR/code128_123456789.png"  alt="code128_123456789.png" /></td></tr>
+<tr><td class="center"><img src="./BarbeQR/code128\_123456789.png"  alt="code128\_123456789.png" /></td></tr>
 <tr><td class="center">Code128 Barcode</td></tr>
-<tr><td class="center"><img src="./BarbeQR/code39_123456789.png"  alt="code39_123456789.png" /></td></tr>
+<tr><td class="center"><img src="./BarbeQR/code39\_123456789.png"  alt="code39\_123456789.png" /></td></tr>
 <tr><td class="center">Code39 Barcode</td></tr>
-<tr><td class="center"><img src="./BarbeQR/qrcode_123456789.png"  alt="qrcode_123456789.png" /></td></tr>
+<tr><td class="center"><img src="./BarbeQR/qrcode\_123456789.png"  alt="qrcode\_123456789.png" /></td></tr>
 <tr><td class="center">QR Code</td></tr>
-<tr><td class="center"><img src="./BarbeQR/qrcodeShiftJisJapanese_123456789.png"  alt="qrcodeShiftJisJapanese_123456789.png" /></td></tr>
+<tr><td class="center"><img src="./BarbeQR/qrcodeShiftJisJapanese\_123456789.png"  alt="qrcodeShiftJisJapanese\_123456789.png" /></td></tr>
 <tr><td class="center">QR Code With Japanese Text</td></tr>
 </tbody>
 </table>
