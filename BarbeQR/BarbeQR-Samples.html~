@@ -3,11 +3,11 @@
                "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
 <head>
-<title></title>
+<title>BarbeQR Samples</title>
 <meta http-equiv="Content-Type" content="text/html;charset=iso-8859-1"/>
-<meta name="title" content=""/>
+<meta name="title" content="BarbeQR Samples"/>
 <meta name="generator" content="Org-mode"/>
-<meta name="generated" content="2013-06-21T08:21+0900"/>
+<meta name="generated" content="2013-06-21T08:17+0900"/>
 <meta name="author" content="WitLab"/>
 <meta name="description" content=""/>
 <meta name="keywords" content=""/>
@@ -115,7 +115,13 @@ for the JavaScript code in this tag.
 </div>
 
 <div id="content">
-<h1 class="title"></h1>
+<h1 class="title">BarbeQR Samples</h1>
+
+
+<div id="outline-container-1" class="outline-2">
+<h2 id="sec-1">BarbeQR Samples</h2>
+<div class="outline-text-2" id="text-1">
+
 
 <table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
 <colgroup><col class="center" />
@@ -139,9 +145,11 @@ for the JavaScript code in this tag.
 
 
 </div>
+</div>
+</div>
 
 <div id="postamble">
-<p class="date">Date: 2013-06-21T08:21+0900</p>
+<p class="date">Date: 2013-06-21T08:17+0900</p>
 <a href="http://validator.w3.org/check?uri=referer">Validate XHTML 1.0</a>
 
 </div>
