@@ -9,19 +9,19 @@
 | <c>                                       |
 | Generated Barcode Image Files             |
 |-------------------------------------------|
-| [[file:codabar_123456789.png]]                |
+| [[file:codabar-123456789.png]]                |
 | CodaBar Barcode                           |
 |                                           |
-| [[file:code128_123456789.png]]                |
+| [[file:code128-123456789.png]]                |
 | Code128 Barcode                           |
 |                                           |
-| [[file:code39_123456789.png]]                 |
+| [[file:code39-123456789.png]]                 |
 | Code39 Barcode                            |
 |                                           |
-| [[file:qrcode_123456789.png]]                 |
+| [[file:qrcode-123456789.png]]                 |
 | QR Code                                   |
 |                                           |
-| [[file:qrcodeShiftJisJapanese_123456789.png]] |
+| [[file:qrcodeShiftJisJapanese-123456789.png]] |
 | QR Code With Japanese Text                |
 
 
