@@ -2,6 +2,7 @@ WitLab's Gists
 ================
 ## 1. BarbeQR is a set of sample Java codes that write image files of barcodes, and QR codes.
 ### [Sample Barcodes](./BarbeQR/BarbeQR.html)
+![Code39 Barcode](./BarbeQR/code39_123456789.png)
 
 ### Java Source Files
 
