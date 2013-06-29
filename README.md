@@ -17,5 +17,8 @@ WitLab's Gists
 ### Dependencies
 * ZXing http://code.google.com/p/zxing/
 
+## 2. [Emacs Org Mode Galleries](./EmacsOrgMode/emacsOrgModeGalleries.html) contain samples of Emacs Org Mode. 
+
+
 -------------
 
