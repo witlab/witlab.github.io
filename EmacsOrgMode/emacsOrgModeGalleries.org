@@ -7,10 +7,8 @@
 + This file demonstrates what Emacs Org-Mode can do.
 
 * Hyperlink
-+ [[emacsOrgModeGalleries.org]] :: Original text file.
-+ [[emacsOrgModeGalleries.html]] :: Exported HTML file.
-
-
++ [[https://github.com/witlab/witlab.github.io/blob/master/EmacsOrgMode/emacsOrgModeGalleries.org][emacsOrgModeGalleries.org]] :: Original text file.
++ [[https://github.com/witlab/witlab.github.io/blob/master/EmacsOrgMode/emacsOrgModeGalleries.html][emacsOrgModeGalleries.html]] :: Exported HTML file.
 
 * Table
 ** Column Border
