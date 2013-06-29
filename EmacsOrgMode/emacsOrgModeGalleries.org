@@ -1,0 +1,50 @@
+#+TITLE: Emacs Org Mode Galleries
+#+AUTHOR: WitLab
+#+EMAIL:  
+#+LANGUAGE: en
+#+OPTIONS: toc:3 num:3 author:nil creator:nil LaTeX:t*
+* Overview
++ This file demonstrates what Emacs Org-Mode can do.
+
+* Hyperlink
++ [[emacsOrgModeGalleries.org]] :: Original text file.
++ [[emacsOrgModeGalleries.html]] :: Exported HTML file.
+
+
+
+* Table
+** Column Border
+
+#+TBLNAME: Table with Column Border
+#+ATTR_HTML: :border 2 :rules all :frame border
+| <c>    | <c>    |
+| Number | String |
+| 1      | One    |
+| 2      | Two    |
+
+** Row Index Number 
++ #+TBLFM: $1=@#
+| Row Index |
+|-----------|
+|         2 |
+|         3 |
+|         4 |
+#+TBLFM: $1=@#
+
+
+** Column Formula
++ #+TBLFM: $3='(concat $1 $2)
+#+TBLNAME: Column Formula
+| String 1 | String 2 |      |
+|----------+----------+------|
+|        1 | One      | 1One |
+|        2 | Two      | 2Two |
+#+TBLFM: $3='(concat $1 $2)
+
+* Export with <pre> tag 
+  
+#+BEGIN_EXAMPLE
+| Number | String |
+|      1 | One    |
+|      2 | Two    |
+#+END_EXAMPLE
