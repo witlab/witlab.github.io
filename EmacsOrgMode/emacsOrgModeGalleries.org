@@ -2,10 +2,25 @@
 #+AUTHOR: WitLab
 #+EMAIL:  
 #+LANGUAGE: en
-#+OPTIONS: toc:3 num:3 author:nil creator:nil LaTeX:t*
-* Overview
-+ This file demonstrates what Emacs Org-Mode can do.
+#+OPTIONS: toc:nil title:nil num:3 author:nil creator:nil LaTeX:t*
 
+#+HTML_HEAD: <link rel="stylesheet" type="text/css" href="../stylesheets/stylesheet.css" />
+#+BEGIN_HTML
+<!-- HEADER -->
+<div id="header_wrap" class="outer">
+<header class="inner">
+<a id="forkme_banner" href="https://github.com/witlab">View on GitHub</a>
+</header>
+</div>
+
+<!-- MAIN CONTENT -->
+<div id="main_content_wrap" class="outer">
+<section id="main_content" class="inner">
+#+END_HTML
+
+* Emacs Org Mode Galleries Overview
++ This file demonstrates what Emacs Org-Mode can do.
+  
 * Hyperlink
 + [[https://github.com/witlab/witlab.github.io/blob/master/EmacsOrgMode/emacsOrgModeGalleries.org][emacsOrgModeGalleries.org]] :: Original text file.
 + [[https://github.com/witlab/witlab.github.io/blob/master/EmacsOrgMode/emacsOrgModeGalleries.html][emacsOrgModeGalleries.html]] :: Exported HTML file.
@@ -46,3 +61,13 @@
 |      1 | One    |
 |      2 | Two    |
 #+END_EXAMPLE
+
+* HTML CSS
++   #+BEGIN_EXAMPLE
++ #+STYLE: <link rel="stylesheet" type="text/css" href="../stylesheets/stylesheet.css">
++   #+END_EXAMPLE
+
+#+BEGIN_HTML
+</section>
+</div>
+#+END_HTML
