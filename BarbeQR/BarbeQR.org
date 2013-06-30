@@ -1,8 +1,21 @@
 #+TITLE: BarbeQR 
 #+AUTHOR: WitLab
-#+EMAIL:     witlab@m3o.info
+#+EMAIL: 
 #+LANGUAGE: en
 #+OPTIONS: toc:nil num:nil author:nil creator:nil LaTeX:t*
+#+HTML_HEAD: <link rel="stylesheet" type="text/css" href="../stylesheets/stylesheet.css" />
+#+BEGIN_HTML
+<!-- HEADER -->
+<div id="header_wrap" class="outer">
+<header class="inner">
+<a id="forkme_banner" href="https://github.com/witlab">View on GitHub</a>
+</header>
+</div>
+
+<!-- MAIN CONTENT -->
+<div id="main_content_wrap" class="outer">
+<section id="main_content" class="inner">
+#+END_HTML
 * What is BarbeQR?
 + BarbeQR is a set of sample Java codes that write image files of barcodes, and QR codes.
 
@@ -37,3 +50,26 @@
 
 * Dependencies
 + ZXing http://code.google.com/p/zxing/
+
+#+BEGIN_HTML
+</section>
+</div>
+
+<!-- FOOTER  -->
+<div id="footer_wrap" class="outer">
+<footer class="inner">
+<p>Published with <a href="http://pages.github.com">GitHub Pages</a></p>
+</footer>
+</div>
+
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+try {
+  var pageTracker = _gat._getTracker("UA-41888423-1");
+  pageTracker._trackPageview();
+} catch(err) {}
+</script>
+#+END_HTML

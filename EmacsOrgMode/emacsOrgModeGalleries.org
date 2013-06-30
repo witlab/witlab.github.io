@@ -48,10 +48,10 @@
 ** Column Formula
 + #+TBLFM: $3='(concat $1 $2)
 #+TBLNAME: Column Formula
-| String 1 | String 2 |      |
-|----------+----------+------|
-|        1 | One      | 1One |
-|        2 | Two      | 2Two |
+| String 1 | String 2 | Concatenated String |
+|----------+----------+---------------------|
+|        1 | One      | 1One                |
+|        2 | Two      | 2Two                |
 #+TBLFM: $3='(concat $1 $2)
 
 * Export with <pre> tag 
@@ -62,12 +62,47 @@
 |      2 | Two    |
 #+END_EXAMPLE
 
-* HTML CSS
-+   #+BEGIN_EXAMPLE
-+ #+STYLE: <link rel="stylesheet" type="text/css" href="../stylesheets/stylesheet.css">
-+   #+END_EXAMPLE
+* Applying CSS
+#+BEGIN_EXAMPLE
+#+HTML_HEAD: <link rel="stylesheet" type="text/css" href="../stylesheets/stylesheet.css" />
+#+END_EXAMPLE
++ Refer to the source code, [[https://github.com/witlab/witlab.github.io/blob/master/EmacsOrgMode/emacsOrgModeGalleries.org][emacsOrgModeGalleries.org]] .
+
+* HTML
+#+BEGIN_EXAMPLE
+#+BEGIN_HTML
+<!-- HEADER -->
+<div id="header_wrap" class="outer">
+<header class="inner">
+<a id="forkme_banner" href="https://github.com/witlab">View on GitHub</a>
+</header>
+</div>
+
+<!-- MAIN CONTENT -->
+<div id="main_content_wrap" class="outer">
+<section id="main_content" class="inner">
+#+END_HTML
+#+END_EXAMPLE
 
 #+BEGIN_HTML
 </section>
 </div>
+
+<!-- FOOTER  -->
+<div id="footer_wrap" class="outer">
+<footer class="inner">
+<p>Published with <a href="http://pages.github.com">GitHub Pages</a></p>
+</footer>
+</div>
+
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+try {
+  var pageTracker = _gat._getTracker("UA-41888423-1");
+  pageTracker._trackPageview();
+} catch(err) {}
+</script>
 #+END_HTML
