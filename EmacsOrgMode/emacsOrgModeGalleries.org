@@ -2,7 +2,7 @@
 #+AUTHOR: WitLab
 #+EMAIL:  
 #+LANGUAGE: en
-#+OPTIONS: toc:nil title:nil num:3 author:nil creator:nil LaTeX:t*
+#+OPTIONS: toc:nil title:nil num:3 author:nil creator:nil LaTeX:t* ^:nil
 
 #+HTML_HEAD: <link rel="stylesheet" type="text/css" href="../stylesheets/stylesheet.css" />
 #+BEGIN_HTML
@@ -83,6 +83,8 @@
 <section id="main_content" class="inner">
 #+END_HTML
 #+END_EXAMPLE
+
+Back to https://witlab.github.io
 
 #+BEGIN_HTML
 </section>
