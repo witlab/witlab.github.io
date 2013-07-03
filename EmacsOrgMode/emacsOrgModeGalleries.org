@@ -2,25 +2,10 @@
 #+AUTHOR: WitLab
 #+EMAIL:  
 #+LANGUAGE: en
-#+OPTIONS: toc:nil title:nil num:3 author:nil creator:nil LaTeX:t* ^:nil
-
-#+HTML_HEAD: <link rel="stylesheet" type="text/css" href="../stylesheets/stylesheet.css" />
-#+BEGIN_HTML
-<!-- HEADER -->
-<div id="header_wrap" class="outer">
-<header class="inner">
-<a id="forkme_banner" href="https://github.com/witlab">View on GitHub</a>
-</header>
-</div>
-
-<!-- MAIN CONTENT -->
-<div id="main_content_wrap" class="outer">
-<section id="main_content" class="inner">
-#+END_HTML
-
-* Emacs Org Mode Galleries Overview
+#+OPTIONS: toc:3 num:3 author:nil creator:nil LaTeX:t*
+* Overview
 + This file demonstrates what Emacs Org-Mode can do.
-  
+
 * Hyperlink
 + [[https://github.com/witlab/witlab.github.io/blob/master/EmacsOrgMode/emacsOrgModeGalleries.org][emacsOrgModeGalleries.org]] :: Original text file.
 + [[https://github.com/witlab/witlab.github.io/blob/master/EmacsOrgMode/emacsOrgModeGalleries.html][emacsOrgModeGalleries.html]] :: Exported HTML file.
@@ -48,10 +33,10 @@
 ** Column Formula
 + #+TBLFM: $3='(concat $1 $2)
 #+TBLNAME: Column Formula
-| String 1 | String 2 | Concatenated String |
-|----------+----------+---------------------|
-|        1 | One      | 1One                |
-|        2 | Two      | 2Two                |
+| String 1 | String 2 |      |
+|----------+----------+------|
+|        1 | One      | 1One |
+|        2 | Two      | 2Two |
 #+TBLFM: $3='(concat $1 $2)
 
 * Export with <pre> tag 
@@ -62,49 +47,9 @@
 |      2 | Two    |
 #+END_EXAMPLE
 
-* Applying CSS
-#+BEGIN_EXAMPLE
-#+HTML_HEAD: <link rel="stylesheet" type="text/css" href="../stylesheets/stylesheet.css" />
-#+END_EXAMPLE
-+ Refer to the source code, [[https://github.com/witlab/witlab.github.io/blob/master/EmacsOrgMode/emacsOrgModeGalleries.org][emacsOrgModeGalleries.org]] .
+* Inline Image
+[[file:../Graphviz/UmlActivityDiagramGraphviz.png]]
++ Source code for this diagram is available in the next section.
+* Source Code
+#+INCLUDE: "../Graphviz/UmlActivityDiagramGraphviz.gv" src dot
 
-* HTML
-#+BEGIN_EXAMPLE
-#+BEGIN_HTML
-<!-- HEADER -->
-<div id="header_wrap" class="outer">
-<header class="inner">
-<a id="forkme_banner" href="https://github.com/witlab">View on GitHub</a>
-</header>
-</div>
-
-<!-- MAIN CONTENT -->
-<div id="main_content_wrap" class="outer">
-<section id="main_content" class="inner">
-#+END_HTML
-#+END_EXAMPLE
-
-Back to https://witlab.github.io
-
-#+BEGIN_HTML
-</section>
-</div>
-
-<!-- FOOTER  -->
-<div id="footer_wrap" class="outer">
-<footer class="inner">
-<p>Published with <a href="http://pages.github.com">GitHub Pages</a></p>
-</footer>
-</div>
-
-<script type="text/javascript">
-var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
-document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
-</script>
-<script type="text/javascript">
-try {
-  var pageTracker = _gat._getTracker("UA-41888423-1");
-  pageTracker._trackPageview();
-} catch(err) {}
-</script>
-#+END_HTML

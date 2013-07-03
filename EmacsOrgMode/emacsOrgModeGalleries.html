@@ -3,7 +3,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
 <head>
 <title>Emacs Org Mode Galleries</title>
-<!-- 2013-06-30 Sun 18:47 -->
+<!-- 2013-07-03 Wed 23:04 -->
 <meta http-equiv="Content-Type" content="text/html;charset=utf-8"/>
 <meta name="generator" content="Org-mode"/>
 <style type="text/css">
@@ -84,7 +84,6 @@
     { background-color: #ffff00; color: #000000; font-weight: bold; }
   /*]]>*/-->
 </style>
-<link rel="stylesheet" type="text/css" href="../stylesheets/stylesheet.css" />
 <script type="text/javascript">
 /*
 @licstart  The following is the entire license notice for the
@@ -135,19 +134,27 @@ for the JavaScript code in this tag.
 <body>
 <div id="content">
 <h1 class="title">Emacs Org Mode Galleries</h1>
-<!-- HEADER -->
-<div id="header_wrap" class="outer">
-<header class="inner">
-<a id="forkme_banner" href="https://github.com/witlab">View on GitHub</a>
-</header>
+<div id="table-of-contents">
+<h2>Table of Contents</h2>
+<div id="text-table-of-contents">
+<ul>
+<li><a href="#sec-1">1. Overview</a></li>
+<li><a href="#sec-2">2. Hyperlink</a></li>
+<li><a href="#sec-3">3. Table</a>
+<ul>
+<li><a href="#sec-3-1">3.1. Column Border</a></li>
+<li><a href="#sec-3-2">3.2. Row Index Number</a></li>
+<li><a href="#sec-3-3">3.3. Column Formula</a></li>
+</ul>
+</li>
+<li><a href="#sec-4">4. Export with &lt;pre&gt; tag</a></li>
+<li><a href="#sec-5">5. Inline Image</a></li>
+<li><a href="#sec-6">6. Source Code</a></li>
+</ul>
 </div>
-
-<!-- MAIN CONTENT -->
-<div id="main_content_wrap" class="outer">
-<section id="main_content" class="inner">
-
+</div>
 <div id="outline-container-sec-1" class="outline-2">
-<h2 id="sec-1"><span class="section-number-2">1</span> Emacs Org Mode Galleries Overview</h2>
+<h2 id="sec-1"><span class="section-number-2">1</span> Overview</h2>
 <div class="outline-text-2" id="text-1">
 <ul class="org-ul">
 <li>This file demonstrates what Emacs Org-Mode can do.
@@ -255,7 +262,7 @@ for the JavaScript code in this tag.
 <tr>
 <th scope="col" class="right">String 1</th>
 <th scope="col" class="left">String 2</th>
-<th scope="col" class="left">Concatenated String</th>
+<th scope="col" class="left">&#xa0;</th>
 </tr>
 </thead>
 <tbody>
@@ -286,64 +293,58 @@ for the JavaScript code in this tag.
 </div>
 </div>
 <div id="outline-container-sec-5" class="outline-2">
-<h2 id="sec-5"><span class="section-number-2">5</span> Applying CSS</h2>
+<h2 id="sec-5"><span class="section-number-2">5</span> Inline Image</h2>
 <div class="outline-text-2" id="text-5">
-<pre class="example">
-#+HTML_HEAD: &lt;link rel="stylesheet" type="text/css" href="../stylesheets/stylesheet.css" /&gt;
-</pre>
+
+<div class="figure">
+<p><img src="../Graphviz/UmlActivityDiagramGraphviz.png"  alt="UmlActivityDiagramGraphviz.png"/></p>
+</div>
 <ul class="org-ul">
-<li>Refer to the source code, <a href="https://github.com/witlab/witlab.github.io/blob/master/EmacsOrgMode/emacsOrgModeGalleries.org">emacsOrgModeGalleries.org</a> .
+<li>Source code for this diagram is available in the next section.
 </li>
 </ul>
 </div>
 </div>
+
 <div id="outline-container-sec-6" class="outline-2">
-<h2 id="sec-6"><span class="section-number-2">6</span> HTML</h2>
+<h2 id="sec-6"><span class="section-number-2">6</span> Source Code</h2>
 <div class="outline-text-2" id="text-6">
-<pre class="example">
-#+BEGIN_HTML
-&lt;!-- HEADER --&gt;
-&lt;div id="header_wrap" class="outer"&gt;
-&lt;header class="inner"&gt;
-&lt;a id="forkme_banner" href="https://github.com/witlab"&gt;View on GitHub&lt;/a&gt;
-&lt;/header&gt;
-&lt;/div&gt;
+<div class="org-src-container">
 
-&lt;!-- MAIN CONTENT --&gt;
-&lt;div id="main_content_wrap" class="outer"&gt;
-&lt;section id="main_content" class="inner"&gt;
-#+END_HTML
+<pre class="src src-dot">digraph UmlActivityDiagram {
+	node[shape=circle, style=filled];
+	c0[label="Start"];
+
+	node[shape=record, style=rounded];
+	r1[label="Check out the weather forecast"];
+
+	r2[label="Take an umbrella"];
+
+	bar1[shape=record, label="{{    &lt;b1&gt;|&lt;b2&gt;|    &lt;b3&gt;|&lt;b4&gt;|    &lt;b5&gt;}}", style=filled, fixedsize=true, height=0.1, color=black, fillcolor=black];
+	r2-&gt;bar1:b4;
+
+
+	node[shape=diamond, style=""];
+	d1[label=""];
+
+	c0-&gt;r1;
+	r1-&gt;d1;
+	d1-&gt;r2 [label="Rainy"];
+	d1-&gt;bar1:b2[label="Fine"];
+
+
+	node[shape = doublecircle, style=filled];
+	dc1[label="End"];
+
+	bar1:b3 -&gt; dc1;
+}
 </pre>
-
-<p>
-Back to <a href="https://witlab.github.io">https://witlab.github.io</a>
-</p>
-
-</section>
 </div>
-
-<!-- FOOTER  -->
-<div id="footer_wrap" class="outer">
-<footer class="inner">
-<p>Published with <a href="http://pages.github.com">GitHub Pages</a></p>
-</footer>
-</div>
-
-<script type="text/javascript">
-var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
-document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
-</script>
-<script type="text/javascript">
-try {
-  var pageTracker = _gat._getTracker("UA-41888423-1");
-  pageTracker._trackPageview();
-} catch(err) {}
-</script>
 </div>
 </div>
 </div>
 <div id="postamble" class="status">
-<p class="date">Created: 2013-06-30 Sun 18:47</p>
+<p class="date">Created: 2013-07-03 Wed 23:04</p>
 <p class="xhtml-validation"><a href="http://validator.w3.org/check?uri=referer">Validate XHTML 1.0</a></p>
 </div>
 </body>

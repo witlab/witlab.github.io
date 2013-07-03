@@ -1,0 +1,27 @@
+digraph UmlActivityDiagram {
+	node[shape=circle, style=filled];
+	c0[label="Start"];
+	
+	node[shape=record, style=rounded];
+	r1[label="Check out the weather forecast"];
+	
+	r2[label="Take an umbrella"];
+	
+	bar1[shape=record, label="{{    <b1>|<b2>|    <b3>|<b4>|    <b5>}}", style=filled, fixedsize=true, height=0.1, color=black, fillcolor=black];
+	r2->bar1:b4;
+	
+	
+	node[shape=diamond, style=""];
+	d1[label=""];
+	
+	c0->r1;
+	r1->d1;
+	d1->r2 [label="Rainy"];
+	d1->bar1:b2[label="Fine"];
+	
+	
+	node[shape = doublecircle, style=filled];
+	dc1[label="End"];
+	
+	bar1:b3 -> dc1;
+}
