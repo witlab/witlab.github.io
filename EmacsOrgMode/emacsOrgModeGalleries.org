@@ -48,7 +48,9 @@
 #+END_EXAMPLE
 
 * Inline Image
-[[file:../Graphviz/UmlActivityDiagramGraphviz.png]]
+#+CAPTION: UMLActivityDiagramGraphviz.png
+[[../Graphviz/UMLActivityDiagramGraphviz.png]]
+
 + Source code for this diagram is available in the next section.
 * Source Code
 #+INCLUDE: "../Graphviz/UmlActivityDiagramGraphviz.gv" src dot
