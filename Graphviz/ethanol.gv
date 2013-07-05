@@ -1,0 +1,27 @@
+graph ethanol{
+	rankdir=LR;
+	h1[label="H",shape=circle];	
+	h2[label="H",shape=circle];
+	h3[label="H",shape=circle];
+	c1[label="C",shape=circle,style=filled];
+	{rank=same;
+		h1; h2; h3}
+	c2[label="C",shape=circle,style=filled];
+	h4[label="H",shape=circle];
+	h5[label="H",shape=circle];
+	o1[label="O",shape=circle, color=red];
+	{rank=same;
+		h4; h5;	}
+	h6[label="H",shape=circle];
+	h1 -- c1;
+	c1 -- h2;
+	c1 -- h3;
+	c1 -- c2;
+	
+	c2 -- h4;
+	c2 -- o1;
+	c2 -- h5;
+	
+	o1 -- h6;
+}
+

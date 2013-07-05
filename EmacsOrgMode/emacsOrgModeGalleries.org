@@ -7,8 +7,8 @@
 + This file demonstrates what Emacs Org-Mode can do.
 
 * Hyperlink
-+ [[https://github.com/witlab/witlab.github.io/blob/master/EmacsOrgMode/emacsOrgModeGalleries.org][emacsOrgModeGalleries.org]] :: Original text file.
-+ [[https://github.com/witlab/witlab.github.io/blob/master/EmacsOrgMode/emacsOrgModeGalleries.html][emacsOrgModeGalleries.html]] :: Exported HTML file.
++ [[https://gist.github.com/witlab/5923233][emacsOrgModeGalleries.org]] :: Original text file.
++ [[https://witlab.github.io/EmacsOrgMode/emacsOrgModeGalleries.html][emacsOrgModeGalleries.html]] :: Exported HTML file.
 
 * Table
 ** Column Border
@@ -49,9 +49,9 @@
 
 * Inline Image
 #+CAPTION: UMLActivityDiagramGraphviz.png
-[[../Graphviz/UMLActivityDiagramGraphviz.png]]
+[[./UMLActivityDiagramGraphviz.png]]
 
 + Source code for this diagram is available in the next section.
 * Source Code
-#+INCLUDE: "../Graphviz/UmlActivityDiagramGraphviz.gv" src dot
+#+INCLUDE: "UmlActivityDiagramGraphviz.gv" src dot
 
