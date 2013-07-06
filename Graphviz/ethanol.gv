@@ -1,4 +1,6 @@
 graph ethanol{
+ // Gist https://gist.github.com/witlab/5937586
+ // Generated PNG file https://witlab.github.io/Graphviz/ethanol.png
 	rankdir=LR;
 	h1[label="H",shape=circle];	
 	h2[label="H",shape=circle];
