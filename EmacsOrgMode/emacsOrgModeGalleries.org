@@ -2,25 +2,22 @@
 #+AUTHOR: WitLab
 #+EMAIL:  
 #+LANGUAGE: en
-#+OPTIONS: toc:3 num:3 author:nil creator:nil LaTeX:t*
-#+HTML_HEAD: <meta charset='utf-8'>
-#+HTML_HEAD: <meta http-equiv="X-UA-Compatible" content="chrome=1">
-#+HTML_HEAD: <link href='https://fonts.googleapis.com/css?family=Chivo:900' rel='stylesheet' type='text/css'>
-#+HTML_HEAD: <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen" />
-#+HTML_HEAD: <link rel="stylesheet" type="text/css" href="stylesheets/pygment_trac.css" media="screen" />
-#+HTML_HEAD: <link rel="stylesheet" type="text/css" href="stylesheets/print.css" media="print" />
-#+HTML_HEAD: <!--[if lt IE 9]>
-#+HTML_HEAD: <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-#+HTML_HEAD: <![endif]-->
+#+OPTIONS: toc:nil num:nil author:nil creator:nil LaTeX:t*
+#+HTML_HEAD: <link rel="stylesheet" type="text/css" href="../stylesheets/stylesheet.css" />
+#+HTML_HEAD_EXTRA: <style> .title { text-align: center; color: white }</style>
 #+BEGIN_HTML
-    <div id="container">
-      <div class="inner">
-        <section id="downloads" class="clearfix">
-          <a href="https://github.com/witlab" id="view-on-github" class="button"><span>View on GitHub</span></a>
-        </section>
-        <hr>
-        <section id="main_content">
+<!-- HEADER -->
+<div id="header_wrap" class="outer">
+<header class="inner">
+<a id="forkme_banner" href="https://github.com/witlab">View on GitHub</a>
+</header>
+</div>
+
+<!-- MAIN CONTENT -->
+<div id="main_content_wrap" class="outer">
+<section id="main_content" class="inner">
 #+END_HTML
+
 
 * Overview
 + This file demonstrates what Emacs Org-Mode can do.
@@ -74,23 +71,27 @@
 * Source Code
 #+INCLUDE: "UmlActivityDiagramGraphviz.gv" src dot
 
-#+BEGIN_HTML
-<hr>
-      </section>
-      <footer>
-        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
-      </footer>
-    </div>
-    <script src="javascripts/scale.fix.js"></script>
-              <script type="text/javascript">
-            var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
-            document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
-          </script>
-          <script type="text/javascript">
-            try {
-              var pageTracker = _gat._getTracker("UA-41888423-1");
-            pageTracker._trackPageview();
-            } catch(err) {}
-          </script>
+Back to https://witlab.github.io
 
+#+BEGIN_HTML
+</section>
+</div>
+
+<!-- FOOTER  -->
+<div id="footer_wrap" class="outer">
+<footer class="inner">
+<p>Published with <a href="http://pages.github.com">GitHub Pages</a></p>
+</footer>
+</div>
+
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+try {
+  var pageTracker = _gat._getTracker("UA-41888423-1");
+  pageTracker._trackPageview();
+} catch(err) {}
+</script>
 #+END_HTML
