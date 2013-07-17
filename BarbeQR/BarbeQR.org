@@ -4,6 +4,7 @@
 #+LANGUAGE: en
 #+OPTIONS: toc:nil num:nil author:nil creator:nil LaTeX:t* ^:nil
 #+HTML_HEAD: <link rel="stylesheet" type="text/css" href="../stylesheets/stylesheet.css" />
+#+HTML_HEAD_EXTRA: <style> .title { text-align: center; color: white }</style>
 #+BEGIN_HTML
 <!-- HEADER -->
 <div id="header_wrap" class="outer">
@@ -16,6 +17,9 @@
 <div id="main_content_wrap" class="outer">
 <section id="main_content" class="inner">
 #+END_HTML
+
+
+
 * What is BarbeQR?
 + BarbeQR is a set of sample Java codes that write image files of barcodes, and QR codes.
 
