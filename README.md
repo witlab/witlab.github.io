@@ -24,6 +24,7 @@ WitLab's Gists
 
 * [StringSplitter.java](https://gist.github.com/witlab/7050837)
 
+* [XmlToPdfTransformer.java](https://gist.github.com/witlab/7051871)
 
 -------------
 ### [RSS Feed](http://page2rss.com/rss/98e87a1ee1f05b5f19c76ac5cd8d3a8f)
