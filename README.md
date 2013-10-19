@@ -19,6 +19,11 @@ WitLab's Gists
 
 ## 2. [Emacs Org Mode Galleries](./EmacsOrgMode/emacsOrgModeGalleries.html) contain samples of Emacs Org Mode. 
 
+## 3. Other Gists
+* [OsCommandExecutor.java](https://gist.github.com/witlab/7050882)
+
+* [StringSplitter.java](https://gist.github.com/witlab/7050837)
+
 
 -------------
 ### [RSS Feed](http://page2rss.com/rss/98e87a1ee1f05b5f19c76ac5cd8d3a8f)
